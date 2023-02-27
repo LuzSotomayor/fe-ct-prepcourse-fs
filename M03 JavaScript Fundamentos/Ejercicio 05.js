@@ -64,8 +64,7 @@ function deEuroAdolar(euro) {
    // Debes calcular el valor recibido como argumento pasándolo a dolares.
    // Tu código:
    var dolar = 1.20
-   return (dolar* euro)
-   
+   return (dolar* euro)  
 }
 
 function esVocal(letra) {
@@ -76,7 +75,8 @@ function esVocal(letra) {
    if ((letra.length === 1) && (letra === 'a')|| (letra === 'e')|| (letra === 'i')|| (letra === 'o')|| (letra === 'u')) {
       return 'Es vocal';
    } else {
-      return 'Dato incorrecto'; }
+      return 'Dato incorrecto'; 
+   }
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
